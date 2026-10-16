@@ -1,0 +1,20 @@
+file,kolom,deskripsi
+transaksi.csv,order_id,ID transaksi (1 order_id bisa punya banyak baris menu)
+transaksi.csv,order_date,Tanggal order (YYYY-MM-DD)
+transaksi.csv,order_time,Jam order
+transaksi.csv,day_type,Weekday / Weekend
+transaksi.csv,customer_name,Nama pelanggan
+transaksi.csv,is_birthday,Ya/Tidak
+transaksi.csv,table_number,Nomor meja (kosong jika bukan Dine In)
+transaksi.csv,delivery_platform,Platform delivery (kosong jika bukan delivery)
+transaksi.csv,menu_name,Nama menu
+transaksi.csv,price,Harga satuan (Rp)
+transaksi.csv,quantity,Jumlah porsi
+transaksi.csv,subtotal,price x quantity (SEBELUM diskon)
+transaksi.csv,discount_percent,Persentase diskon
+transaksi.csv,discount_amount,Nominal diskon (Rp)
+transaksi.csv,total,subtotal - discount_amount (dasar perhitungan Total Sales)
+mapping_transaksi.csv,order_type,Dine In / Take Away / Delivery Online
+mapping_transaksi.csv,payment_method,Metode pembayaran
+mapping_transaksi.csv,status,Selesai / Dibatalkan / Void
+mapping_menu.csv,category,Kategori menu

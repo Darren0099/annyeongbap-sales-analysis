@@ -1,0 +1,4 @@
+order_type,total_sales,transactions,items_sold,avg_order_value,contribution_pct
+Dine In,1061102800,3775,17095,281086.83,63.86
+Take Away,310530400,1821,5122,170527.4,18.69
+Delivery Online,290081600,1588,4475,182671.03,17.46
